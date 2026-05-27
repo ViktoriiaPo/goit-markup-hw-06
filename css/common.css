@@ -49,9 +49,7 @@ ol {
 }
 .container {
   display: flex;
-  width: 1158px;
-  max-width: 100%;
-  /* justify-content: space-between; */
+  max-width: 320px;
   align-items: center;
   margin: 0 auto;
   padding: 0 15px;

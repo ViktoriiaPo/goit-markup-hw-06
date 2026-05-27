@@ -1,23 +1,24 @@
 .hero {
-  font-size: 56px;
+  font-size: 36px;
   font-weight: 700;
   font-style: normal;
   text-align: center;
   color: #ffffff;
   /* background-color: #2e2f42; */
-  line-height: 1.07;
+  line-height: 1.11;
   letter-spacing: 0.02em;
-  padding-top: 188px;
-  padding-bottom: 188px;
+  /* padding-top: 188px;
+  padding-bottom: 188px; desktop */
 }
 .hero-section {
   background-image:
     linear-gradient(180deg, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    url(../images/hero-bg.jpg);
+    url(../images/hero-bg-1x.jpg);
+
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
-  max-width: 1440px;
+  background-size: 320px 432px;
+  max-width: 320px;
   margin: 0 auto;
 }
 .hero-heading {
@@ -55,5 +56,6 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  gap: 48px;
+  gap: 72px;
+  padding: 72px 52px;
 }
