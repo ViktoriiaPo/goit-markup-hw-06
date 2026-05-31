@@ -47,6 +47,11 @@
             <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
           </ul>
         </address>
+        <button type="button" class="burger-button">
+          <svg class="burger-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-burger-menu"></use>
+          </svg>
+        </button>
       </div>
     </header>
     <main>
@@ -457,6 +462,72 @@
         </div>
       </div>
     </footer>
+    <!--#region burger-->
+    <div class="burger-background">
+      <button class="burger-close-button" type="button">
+        <svg class="burger-close-icon" width="8" height="8">
+          <use href="./images/icons.svg#icon-close"></use>
+        </svg>
+      </button>
+      <div class="burger-navigation-box">
+        <ul class="burger-navigation">
+          <li class="burger-navigation-list">
+            <a class="burger-active" href="#features">Studio</a>
+          </li>
+          <li class="burger-navigation-list">
+            <a href="#team">Portfolio</a>
+          </li>
+          <li class="burger-navigation-list">
+            <a href="#portfolio">Contacts</a>
+          </li>
+        </ul>
+        <address class="burger-contacts">
+          <ul class="burger-contacts-list">
+            <li>
+              <a class="burger-active-contact" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+            <li>
+              <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+          </ul>
+        </address>
+        <ul class="social-list-footer burger-social-list-footer">
+          <li>
+            <a href="" class="social-item-footer">
+              <svg class="icons-footer" width="24px" height="24px">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="" class="social-item-footer">
+              <svg class="icons-footer" width="24px" height="24px">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="" class="social-item-footer">
+              <svg class="icons-footer" width="24px" height="24px">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="" class="social-item-footer">
+              <svg class="icons-footer" width="24px" height="24px">
+                <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!--endregion-->
+
     <!--#region modal-->
     <div id="modal" class="backdrop">
       <div class="modal" id="backdrop">
@@ -529,6 +600,5 @@
       </div>
     </div>
     <!-- #endregion -->
-    <!-- 1 -->
   </body>
 </html>
