@@ -31,9 +31,9 @@ p {
 }
 /* H3 */
 .headings {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
   letter-spacing: 0.02em;
 }
 
@@ -67,8 +67,8 @@ ol {
   margin: -1px;
 }
 .section {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 96px;
+  padding-bottom: 96px;
   margin: 0;
 }
 img {
