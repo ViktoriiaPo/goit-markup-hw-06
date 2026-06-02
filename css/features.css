@@ -10,13 +10,17 @@
   flex-direction: column;
   gap: 72px;
 }
-.list-features-item {
+.list-features-item p {
   padding-right: 24px;
 }
 
 .headings-features {
   margin-bottom: 8px;
   text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
 }
 
 .list-features-box {

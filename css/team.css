@@ -20,7 +20,7 @@
   background-color: #f4f4fd;
 }
 .team-list-item {
-  width: calc((100% - 24px * 3) / 4);
+  /* width: calc((100% - 24px * 3) / 4); */
   border-radius: 0 0 4px 4px;
   background-color: #ffffff;
   box-shadow:
@@ -40,8 +40,8 @@
 }
 .list-people {
   display: flex;
-  width: 1158px;
-  gap: 24px;
+  flex-direction: column;
+  gap: 72px;
 }
 .social-list {
   display: flex;
@@ -63,4 +63,25 @@
 .social-item:hover,
 .social-item:focus {
   background-color: #404bbf;
+}
+@media screen and (min-width: 768px) {
+  .list-people {
+    flex-direction: row;
+    gap: 24px;
+    row-gap: 64px;
+    padding-left: 92px;
+    padding-right: 92px;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (min-width: 1158px) {
+  .list-people {
+    gap: 24px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
 }
