@@ -22,7 +22,7 @@
   margin: 0 auto;
 }
 .hero-heading {
-  max-width: 496px;
+  max-width: 216px;
   padding: 0;
   margin-right: auto;
   margin-left: auto;
@@ -59,6 +59,15 @@
   gap: 72px;
   padding: 72px 52px;
 }
+@media screen and (min-resolution: 192dpi) {
+  .hero-section {
+    background-image:
+      linear-gradient(180deg, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+      url(../images/hero/tablet/hero-bg@2x.jpg);
+    background-size: cover;
+    max-width: 320px;
+  }
+}
 
 @media screen and (min-width: 768px) {
   .hero-section {
@@ -79,6 +88,9 @@
     line-height: 1.07;
     letter-spacing: 0.02em;
   }
+  .hero-heading {
+    max-width: 496px;
+  }
 }
 
 @media screen and (min-width: 768px) and (min-resolution: 192dpi) {
@@ -98,7 +110,7 @@
   }
 
   .container-hero {
-    gap: 36px;
+    gap: 48px;
     padding-top: 188px;
     padding-bottom: 188px;
   }

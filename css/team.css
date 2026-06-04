@@ -1,7 +1,7 @@
 .team .general-headings {
   display: flex;
   margin-bottom: 72px;
-  width: 1158px;
+  max-width: 320px;
   justify-content: center;
 }
 .team .headings {
@@ -35,13 +35,16 @@
   margin-bottom: 8px;
 }
 .team-container {
+  justify-content: center;
   display: flex;
   flex-wrap: wrap;
 }
 .list-people {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: 72px;
+  padding: 0 12px;
 }
 .social-list {
   display: flex;
@@ -65,16 +68,30 @@
   background-color: #404bbf;
 }
 @media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+
+  .team .general-headings {
+    max-width: 768px;
+  }
+
   .list-people {
     flex-direction: row;
     gap: 24px;
     row-gap: 64px;
-    padding-left: 92px;
-    padding-right: 92px;
     flex-wrap: wrap;
   }
 }
 @media screen and (min-width: 1158px) {
+  .container {
+    max-width: 1158px;
+  }
+
+  .team .general-headings {
+    max-width: 1158px;
+  }
+
   .list-people {
     gap: 24px;
     padding-left: 0;

@@ -1,3 +1,8 @@
+.mobile-header {
+  display: flex;
+  justify-content: space-between;
+}
+
 .logo {
   font-family: "Raleway", serif;
   font-size: 18px;
@@ -22,7 +27,6 @@
   background-color: transparent;
   display: flex;
   padding: 0;
-  margin-left: 149px;
 }
 .burger-icon {
   fill: #2e2f42;
@@ -96,7 +100,7 @@
   .contacts a {
     font-size: 12px;
     font-weight: 400;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.04em;
     color: #434455;
     font-style: normal;
@@ -142,5 +146,6 @@
   .contacts a {
     font-size: 16px;
     letter-spacing: 0.02em;
+    line-height: 1.5;
   }
 }
