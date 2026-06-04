@@ -8,6 +8,7 @@
   top: 0;
   left: 0;
   justify-content: center;
+  padding: 9px 16px 8px;
   align-items: center;
   opacity: 0;
   pointer-events: none;
