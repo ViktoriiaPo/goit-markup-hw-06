@@ -172,7 +172,7 @@
 
 @media screen and (min-width: 768px) {
   .bottom {
-    padding: 86px 148px 86px 92px;
+    padding: 96px 148px 96px 92px;
   }
   .container {
     max-width: 768px;
@@ -235,10 +235,18 @@
   .container-footer {
     max-width: 1158px;
     flex-direction: row;
-    gap: 83px;
     padding-right: 15px;
     padding-left: 15px;
   }
+  .footer-firstblock {
+    margin-bottom: 0;
+    margin-right: 120px;
+  }
+  .footer-secondblock {
+    align-items: start;
+    margin-left: 0;
+  }
+
   /* .footer-block {
     gap: 120px;
   } */

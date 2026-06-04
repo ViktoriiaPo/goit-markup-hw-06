@@ -27,7 +27,7 @@
   border-radius: 50%;
   background-color: #e7e9fc;
   border: 1px solid #2e2f4266;
-  margin-left: 256px;
+  margin-left: auto;
   margin-bottom: 24px;
   padding: 0;
   width: 24px;
@@ -49,6 +49,11 @@
 .burger-close-button:hover .burger-close-icon,
 .burger-close-button:focus .burger-close-icon {
   fill: #ffffff;
+}
+.burger-navigation-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .burger-navigation {
@@ -90,4 +95,11 @@
 }
 .burger-social-list-footer {
   gap: 40px;
+}
+@media screen and (min-width: 768px) {
+  .burger-background {
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+  }
 }
