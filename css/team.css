@@ -39,6 +39,7 @@
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
 }
 .list-people {
   display: flex;

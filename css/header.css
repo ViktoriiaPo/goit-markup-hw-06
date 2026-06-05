@@ -55,7 +55,6 @@
     display: flex;
     gap: 40px;
     margin-left: 120px;
-    margin-right: 129px;
   }
   .navigation a {
     font-size: 16px;
@@ -90,6 +89,7 @@
 
   .contacts {
     display: flex;
+    margin-left: auto;
   }
   .contacts-list {
     display: flex;
@@ -137,9 +137,9 @@
   }
 
   .navigation {
-    padding-left: 76px;
-    padding-right: 340px;
+    margin-left: 76px;
   }
+
   .contacts-list {
     flex-direction: row;
     flex-wrap: nowrap;
