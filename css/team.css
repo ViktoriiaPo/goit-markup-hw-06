@@ -21,6 +21,7 @@
 }
 .team-list-item {
   /* width: calc((100% - 24px * 3) / 4); */
+  max-width: 264px;
   border-radius: 0 0 4px 4px;
   background-color: #ffffff;
   box-shadow:
